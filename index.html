@@ -1,0 +1,666 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="skran921, Karan Soni">
+    <meta name="description" content="Easily find HTML color codes for your website using our color picker, just click on a color for copy and paste it on your webpage...">
+    <meta name="keyword" contnent="skaran921, css colors,ui color picker,color picker,html colors,beautiful css colors,color palette "> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Color Picker</title>
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .box{
+            height: 200px;
+            color: #fff;
+            width: 24%;
+            display: flex;
+            border-radius: 7px;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.22);
+            -webkit-box-pack: center;
+            box-pack: center;
+            align-items: center;
+            text-align: center;
+            scroll-snap-align: start;
+            justify-content: center;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+            margin:2px;
+        }
+        
+        .box:hover {
+            transform: translateY(0px) scale(1.2);
+            box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
+            z-index: 1;
+        }
+
+        #footer{
+            font-weight:bold;
+            position:fixed;
+            bottom:0;
+            width:100%;
+            text-align:center;
+            height:60px;
+            align-items: center;
+            justify-content:center;
+            vertical-align:middle;
+            box-pack:center;
+            display:flex;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.22);
+        }
+
+  
+       .row {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+       }
+       #ffffff,#ecf0f1,#EAF0F1{
+           color:black;
+       }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-light fixed-top bg-light navbar-expand-md" style="height:70px;box-shadow:0 1px 3px rgba(0,0,0,0.12);">
+        <a href="./index.php" class="navbar-brand">
+                <img src="./logo.png" class="img-fluid" style="width:50px;" alt="logo">
+                CSS Color Picker
+        </a>
+        <div style="position:absolute;right:0;margin-right:10px;margin-top:20px;">
+            <a href="nav-link" style="text-decoration:none;font-size:18px;">skarna921</a>
+        </div>
+    </nav>
+    <div class="container-fluid" style="margin-top:80px;">
+       
+
+         <div class="row" style="margin-top:10px;">
+                         
+            <div class="box col-xm-2" id="e74c3c" style="background-color:#e74c3c" onclick="copyColor('#e74c3c')" onmouseover="showText('#e74c3c')" onmouseout="removeText('#e74c3c')">
+            #e74c3c            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="FF3031" style="background-color:#FF3031" onclick="copyColor('#FF3031')" onmouseover="showText('#FF3031')" onmouseout="removeText('#FF3031')">
+            #FF3031            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="ED4C67" style="background-color:#ED4C67" onclick="copyColor('#ED4C67')" onmouseover="showText('#ED4C67')" onmouseout="removeText('#ED4C67')">
+            #ED4C67            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="FF4848" style="background-color:#FF4848" onclick="copyColor('#FF4848')" onmouseover="showText('#FF4848')" onmouseout="removeText('#FF4848')">
+            #FF4848            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="E84342" style="background-color:#E84342" onclick="copyColor('#E84342')" onmouseover="showText('#E84342')" onmouseout="removeText('#E84342')">
+            #E84342            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="EC4849" style="background-color:#EC4849" onclick="copyColor('#EC4849')" onmouseover="showText('#EC4849')" onmouseout="removeText('#EC4849')">
+            #EC4849            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="c0392b" style="background-color:#c0392b" onclick="copyColor('#c0392b')" onmouseover="showText('#c0392b')" onmouseout="removeText('#c0392b')">
+            #c0392b            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="E71C23" style="background-color:#E71C23" onclick="copyColor('#E71C23')" onmouseover="showText('#E71C23')" onmouseout="removeText('#E71C23')">
+            #E71C23            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="E83350" style="background-color:#E83350" onclick="copyColor('#E83350')" onmouseover="showText('#E83350')" onmouseout="removeText('#E83350')">
+            #E83350            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="EA7773" style="background-color:#EA7773" onclick="copyColor('#EA7773')" onmouseover="showText('#EA7773')" onmouseout="removeText('#EA7773')">
+            #EA7773            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="BA2F16" style="background-color:#BA2F16" onclick="copyColor('#BA2F16')" onmouseover="showText('#BA2F16')" onmouseout="removeText('#BA2F16')">
+            #BA2F16            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="E44236" style="background-color:#E44236" onclick="copyColor('#E44236')" onmouseover="showText('#E44236')" onmouseout="removeText('#E44236')">
+            #E44236            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="AE1438" style="background-color:#AE1438" onclick="copyColor('#AE1438')" onmouseover="showText('#AE1438')" onmouseout="removeText('#AE1438')">
+            #AE1438            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="EA425C" style="background-color:#EA425C" onclick="copyColor('#EA425C')" onmouseover="showText('#EA425C')" onmouseout="removeText('#EA425C')">
+            #EA425C            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="B83227" style="background-color:#B83227" onclick="copyColor('#B83227')" onmouseover="showText('#B83227')" onmouseout="removeText('#B83227')">
+            #B83227            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="FF3E4D" style="background-color:#FF3E4D" onclick="copyColor('#FF3E4D')" onmouseover="showText('#FF3E4D')" onmouseout="removeText('#FF3E4D')">
+            #FF3E4D            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="E8290B" style="background-color:#E8290B" onclick="copyColor('#E8290B')" onmouseover="showText('#E8290B')" onmouseout="removeText('#E8290B')">
+            #E8290B            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="f00" style="background-color:#f00" onclick="copyColor('#f00')" onmouseover="showText('#f00')" onmouseout="removeText('#f00')">
+            #f00            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="FF362E" style="background-color:#FF362E" onclick="copyColor('#FF362E')" onmouseover="showText('#FF362E')" onmouseout="removeText('#FF362E')">
+            #FF362E            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="D63031" style="background-color:#D63031" onclick="copyColor('#D63031')" onmouseover="showText('#D63031')" onmouseout="removeText('#D63031')">
+            #D63031            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="F44336" style="background-color:#F44336" onclick="copyColor('#F44336')" onmouseover="showText('#F44336')" onmouseout="removeText('#F44336')">
+            #F44336            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="EA2027" style="background-color:#EA2027" onclick="copyColor('#EA2027')" onmouseover="showText('#EA2027')" onmouseout="removeText('#EA2027')">
+            #EA2027            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="7f8c8d" style="background-color:#7f8c8d" onclick="copyColor('#7f8c8d')" onmouseover="showText('#7f8c8d')" onmouseout="removeText('#7f8c8d')">
+            #7f8c8d            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="2c3e50" style="background-color:#2c3e50" onclick="copyColor('#2c3e50')" onmouseover="showText('#2c3e50')" onmouseout="removeText('#2c3e50')">
+            #2c3e50            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="333945" style="background-color:#333945" onclick="copyColor('#333945')" onmouseover="showText('#333945')" onmouseout="removeText('#333945')">
+            #333945            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="2C3335" style="background-color:#2C3335" onclick="copyColor('#2C3335')" onmouseover="showText('#2C3335')" onmouseout="removeText('#2C3335')">
+            #2C3335            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="34495e" style="background-color:#34495e" onclick="copyColor('#34495e')" onmouseover="showText('#34495e')" onmouseout="removeText('#34495e')">
+            #34495e            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="2F363F" style="background-color:#2F363F" onclick="copyColor('#2F363F')" onmouseover="showText('#2F363F')" onmouseout="removeText('#2F363F')">
+            #2F363F            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="616C6F" style="background-color:#616C6F" onclick="copyColor('#616C6F')" onmouseover="showText('#616C6F')" onmouseout="removeText('#616C6F')">
+            #616C6F            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="95a5a6" style="background-color:#95a5a6" onclick="copyColor('#95a5a6')" onmouseover="showText('#95a5a6')" onmouseout="removeText('#95a5a6')">
+            #95a5a6            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="DDDDDD" style="background-color:#DDDDDD" onclick="copyColor('#DDDDDD')" onmouseover="showText('#DDDDDD')" onmouseout="removeText('#DDDDDD')">
+            #DDDDDD            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="bdc3c7" style="background-color:#bdc3c7" onclick="copyColor('#bdc3c7')" onmouseover="showText('#bdc3c7')" onmouseout="removeText('#bdc3c7')">
+            #bdc3c7            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="ffffff" style="background-color:#ffffff" onclick="copyColor('#ffffff')" onmouseover="showText('#ffffff')" onmouseout="removeText('#ffffff')">
+            #ffffff            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="ecf0f1" style="background-color:#ecf0f1" onclick="copyColor('#ecf0f1')" onmouseover="showText('#ecf0f1')" onmouseout="removeText('#ecf0f1')">
+            #ecf0f1            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="EAF0F1" style="background-color:#EAF0F1" onclick="copyColor('#EAF0F1')" onmouseover="showText('#EAF0F1')" onmouseout="removeText('#EAF0F1')">
+            #EAF0F1            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="218F76" style="background-color:#218F76" onclick="copyColor('#218F76')" onmouseover="showText('#218F76')" onmouseout="removeText('#218F76')">
+            #218F76            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="4CAF50" style="background-color:#4CAF50" onclick="copyColor('#4CAF50')" onmouseover="showText('#4CAF50')" onmouseout="removeText('#4CAF50')">
+            #4CAF50            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="45CE30" style="background-color:#45CE30" onclick="copyColor('#45CE30')" onmouseover="showText('#45CE30')" onmouseout="removeText('#45CE30')">
+            #45CE30            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="26ae60" style="background-color:#26ae60" onclick="copyColor('#26ae60')" onmouseover="showText('#26ae60')" onmouseout="removeText('#26ae60')">
+            #26ae60            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="2ecc71" style="background-color:#2ecc71" onclick="copyColor('#2ecc71')" onmouseover="showText('#2ecc71')" onmouseout="removeText('#2ecc71')">
+            #2ecc71            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="53E0BC" style="background-color:#53E0BC" onclick="copyColor('#53E0BC')" onmouseover="showText('#53E0BC')" onmouseout="removeText('#53E0BC')">
+            #53E0BC            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="C4E538" style="background-color:#C4E538" onclick="copyColor('#C4E538')" onmouseover="showText('#C4E538')" onmouseout="removeText('#C4E538')">
+            #C4E538            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="8BC34A" style="background-color:#8BC34A" onclick="copyColor('#8BC34A')" onmouseover="showText('#8BC34A')" onmouseout="removeText('#8BC34A')">
+            #8BC34A            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="10A881" style="background-color:#10A881" onclick="copyColor('#10A881')" onmouseover="showText('#10A881')" onmouseout="removeText('#10A881')">
+            #10A881            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="6ab04c" style="background-color:#6ab04c" onclick="copyColor('#6ab04c')" onmouseover="showText('#6ab04c')" onmouseout="removeText('#6ab04c')">
+            #6ab04c            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="27ae60" style="background-color:#27ae60" onclick="copyColor('#27ae60')" onmouseover="showText('#27ae60')" onmouseout="removeText('#27ae60')">
+            #27ae60            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="A3CB37" style="background-color:#A3CB37" onclick="copyColor('#A3CB37')" onmouseover="showText('#A3CB37')" onmouseout="removeText('#A3CB37')">
+            #A3CB37            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="A3CB38" style="background-color:#A3CB38" onclick="copyColor('#A3CB38')" onmouseover="showText('#A3CB38')" onmouseout="removeText('#A3CB38')">
+            #A3CB38            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="CDDC39" style="background-color:#CDDC39" onclick="copyColor('#CDDC39')" onmouseover="showText('#CDDC39')" onmouseout="removeText('#CDDC39')">
+            #CDDC39            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="1BCA9B" style="background-color:#1BCA9B" onclick="copyColor('#1BCA9B')" onmouseover="showText('#1BCA9B')" onmouseout="removeText('#1BCA9B')">
+            #1BCA9B            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="6AB04A" style="background-color:#6AB04A" onclick="copyColor('#6AB04A')" onmouseover="showText('#6AB04A')" onmouseout="removeText('#6AB04A')">
+            #6AB04A            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="16a085" style="background-color:#16a085" onclick="copyColor('#16a085')" onmouseover="showText('#16a085')" onmouseout="removeText('#16a085')">
+            #16a085            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="006266" style="background-color:#006266" onclick="copyColor('#006266')" onmouseover="showText('#006266')" onmouseout="removeText('#006266')">
+            #006266            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="009432" style="background-color:#009432" onclick="copyColor('#009432')" onmouseover="showText('#009432')" onmouseout="removeText('#009432')">
+            #009432            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="7CEC9F" style="background-color:#7CEC9F" onclick="copyColor('#7CEC9F')" onmouseover="showText('#7CEC9F')" onmouseout="removeText('#7CEC9F')">
+            #7CEC9F            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="009688" style="background-color:#009688" onclick="copyColor('#009688')" onmouseover="showText('#009688')" onmouseout="removeText('#009688')">
+            #009688            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="019031" style="background-color:#019031" onclick="copyColor('#019031')" onmouseover="showText('#019031')" onmouseout="removeText('#019031')">
+            #019031            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="1287A5" style="background-color:#1287A5" onclick="copyColor('#1287A5')" onmouseover="showText('#1287A5')" onmouseout="removeText('#1287A5')">
+            #1287A5            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="2ecc72" style="background-color:#2ecc72" onclick="copyColor('#2ecc72')" onmouseover="showText('#2ecc72')" onmouseout="removeText('#2ecc72')">
+            #2ecc72            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="1abc9c" style="background-color:#1abc9c" onclick="copyColor('#1abc9c')" onmouseover="showText('#1abc9c')" onmouseout="removeText('#1abc9c')">
+            #1abc9c            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="0A79DF" style="background-color:#0A79DF" onclick="copyColor('#0A79DF')" onmouseover="showText('#0A79DF')" onmouseout="removeText('#0A79DF')">
+            #0A79DF            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="192A56" style="background-color:#192A56" onclick="copyColor('#192A56')" onmouseover="showText('#192A56')" onmouseout="removeText('#192A56')">
+            #192A56            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="00CCCD" style="background-color:#00CCCD" onclick="copyColor('#00CCCD')" onmouseover="showText('#00CCCD')" onmouseout="removeText('#00CCCD')">
+            #00CCCD            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="74B9FF" style="background-color:#74B9FF" onclick="copyColor('#74B9FF')" onmouseover="showText('#74B9FF')" onmouseout="removeText('#74B9FF')">
+            #74B9FF            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="2196F3" style="background-color:#2196F3" onclick="copyColor('#2196F3')" onmouseover="showText('#2196F3')" onmouseout="removeText('#2196F3')">
+            #2196F3            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="1289A7" style="background-color:#1289A7" onclick="copyColor('#1289A7')" onmouseover="showText('#1289A7')" onmouseout="removeText('#1289A7')">
+            #1289A7            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="25CCF7" style="background-color:#25CCF7" onclick="copyColor('#25CCF7')" onmouseover="showText('#25CCF7')" onmouseout="removeText('#25CCF7')">
+            #25CCF7            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="6A89CC" style="background-color:#6A89CC" onclick="copyColor('#6A89CC')" onmouseover="showText('#6A89CC')" onmouseout="removeText('#6A89CC')">
+            #6A89CC            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="3867d6" style="background-color:#3867d6" onclick="copyColor('#3867d6')" onmouseover="showText('#3867d6')" onmouseout="removeText('#3867d6')">
+            #3867d6            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="111111" style="background-color:#111111" onclick="copyColor('#111111')" onmouseover="showText('#111111')" onmouseout="removeText('#111111')">
+            #111111            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="4834DF" style="background-color:#4834DF" onclick="copyColor('#4834DF')" onmouseover="showText('#4834DF')" onmouseout="removeText('#4834DF')">
+            #4834DF            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="03A9F4" style="background-color:#03A9F4" onclick="copyColor('#03A9F4')" onmouseover="showText('#03A9F4')" onmouseout="removeText('#03A9F4')">
+            #03A9F4            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="12CBC4" style="background-color:#12CBC4" onclick="copyColor('#12CBC4')" onmouseover="showText('#12CBC4')" onmouseout="removeText('#12CBC4')">
+            #12CBC4            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="67E6DC" style="background-color:#67E6DC" onclick="copyColor('#67E6DC')" onmouseover="showText('#67E6DC')" onmouseout="removeText('#67E6DC')">
+            #67E6DC            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="0A3D62" style="background-color:#0A3D62" onclick="copyColor('#0A3D62')" onmouseover="showText('#0A3D62')" onmouseout="removeText('#0A3D62')">
+            #0A3D62            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="2475B0" style="background-color:#2475B0" onclick="copyColor('#2475B0')" onmouseover="showText('#2475B0')" onmouseout="removeText('#2475B0')">
+            #2475B0            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="4b7bec" style="background-color:#4b7bec" onclick="copyColor('#4b7bec')" onmouseover="showText('#4b7bec')" onmouseout="removeText('#4b7bec')">
+            #4b7bec            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="30336B" style="background-color:#30336B" onclick="copyColor('#30336B')" onmouseover="showText('#30336B')" onmouseout="removeText('#30336B')">
+            #30336B            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="00BCD4" style="background-color:#00BCD4" onclick="copyColor('#00BCD4')" onmouseover="showText('#00BCD4')" onmouseout="removeText('#00BCD4')">
+            #00BCD4            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="2B2B52" style="background-color:#2B2B52" onclick="copyColor('#2B2B52')" onmouseover="showText('#2B2B52')" onmouseout="removeText('#2B2B52')">
+            #2B2B52            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="3C40C6" style="background-color:#3C40C6" onclick="copyColor('#3C40C6')" onmouseover="showText('#3C40C6')" onmouseout="removeText('#3C40C6')">
+            #3C40C6            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="01CBC6" style="background-color:#01CBC6" onclick="copyColor('#01CBC6')" onmouseover="showText('#01CBC6')" onmouseout="removeText('#01CBC6')">
+            #01CBC6            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="4BCFFA" style="background-color:#4BCFFA" onclick="copyColor('#4BCFFA')" onmouseover="showText('#4BCFFA')" onmouseout="removeText('#4BCFFA')">
+            #4BCFFA            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="0652DD" style="background-color:#0652DD" onclick="copyColor('#0652DD')" onmouseover="showText('#0652DD')" onmouseout="removeText('#0652DD')">
+            #0652DD            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="487EB0" style="background-color:#487EB0" onclick="copyColor('#487EB0')" onmouseover="showText('#487EB0')" onmouseout="removeText('#487EB0')">
+            #487EB0            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="3498DB" style="background-color:#3498DB" onclick="copyColor('#3498DB')" onmouseover="showText('#3498DB')" onmouseout="removeText('#3498DB')">
+            #3498DB            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="1B1464" style="background-color:#1B1464" onclick="copyColor('#1B1464')" onmouseover="showText('#1B1464')" onmouseout="removeText('#1B1464')">
+            #1B1464            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="0ABDE3" style="background-color:#0ABDE3" onclick="copyColor('#0ABDE3')" onmouseover="showText('#0ABDE3')" onmouseout="removeText('#0ABDE3')">
+            #0ABDE3            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="F3CC79" style="background-color:#F3CC79" onclick="copyColor('#F3CC79')" onmouseover="showText('#F3CC79')" onmouseout="removeText('#F3CC79')">
+            #F3CC79            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="FFC107" style="background-color:#FFC107" onclick="copyColor('#FFC107')" onmouseover="showText('#FFC107')" onmouseout="removeText('#FFC107')">
+            #FFC107            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="FFC312" style="background-color:#FFC312" onclick="copyColor('#FFC312')" onmouseover="showText('#FFC312')" onmouseout="removeText('#FFC312')">
+            #FFC312            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="FBD28B" style="background-color:#FBD28B" onclick="copyColor('#FBD28B')" onmouseover="showText('#FBD28B')" onmouseout="removeText('#FBD28B')">
+            #FBD28B            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="F0DF87" style="background-color:#F0DF87" onclick="copyColor('#F0DF87')" onmouseover="showText('#F0DF87')" onmouseout="removeText('#F0DF87')">
+            #F0DF87            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="F79F1F" style="background-color:#F79F1F" onclick="copyColor('#F79F1F')" onmouseover="showText('#F79F1F')" onmouseout="removeText('#F79F1F')">
+            #F79F1F            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="F9DDA4" style="background-color:#F9DDA4" onclick="copyColor('#F9DDA4')" onmouseover="showText('#F9DDA4')" onmouseout="removeText('#F9DDA4')">
+            #F9DDA4            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="FF9800" style="background-color:#FF9800" onclick="copyColor('#FF9800')" onmouseover="showText('#FF9800')" onmouseout="removeText('#FF9800')">
+            #FF9800            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="F3B431" style="background-color:#F3B431" onclick="copyColor('#F3B431')" onmouseover="showText('#F3B431')" onmouseout="removeText('#F3B431')">
+            #F3B431            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="DFAF2B" style="background-color:#DFAF2B" onclick="copyColor('#DFAF2B')" onmouseover="showText('#DFAF2B')" onmouseout="removeText('#DFAF2B')">
+            #DFAF2B            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="EEC213" style="background-color:#EEC213" onclick="copyColor('#EEC213')" onmouseover="showText('#EEC213')" onmouseout="removeText('#EEC213')">
+            #EEC213            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="FFF222" style="background-color:#FFF222" onclick="copyColor('#FFF222')" onmouseover="showText('#FFF222')" onmouseout="removeText('#FFF222')">
+            #FFF222            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="FAD02E" style="background-color:#FAD02E" onclick="copyColor('#FAD02E')" onmouseover="showText('#FAD02E')" onmouseout="removeText('#FAD02E')">
+            #FAD02E            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="FAC42F" style="background-color:#FAC42F" onclick="copyColor('#FAC42F')" onmouseover="showText('#FAC42F')" onmouseout="removeText('#FAC42F')">
+            #FAC42F            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="F5C469" style="background-color:#F5C469" onclick="copyColor('#F5C469')" onmouseover="showText('#F5C469')" onmouseout="removeText('#F5C469')">
+            #F5C469            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="E1DA00" style="background-color:#E1DA00" onclick="copyColor('#E1DA00')" onmouseover="showText('#E1DA00')" onmouseout="removeText('#E1DA00')">
+            #E1DA00            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="E5B143" style="background-color:#E5B143" onclick="copyColor('#E5B143')" onmouseover="showText('#E5B143')" onmouseout="removeText('#E5B143')">
+            #E5B143            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="FFEB3B" style="background-color:#FFEB3B" onclick="copyColor('#FFEB3B')" onmouseover="showText('#FFEB3B')" onmouseout="removeText('#FFEB3B')">
+            #FFEB3B            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="F3B63A" style="background-color:#F3B63A" onclick="copyColor('#F3B63A')" onmouseover="showText('#F3B63A')" onmouseout="removeText('#F3B63A')">
+            #F3B63A            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="F4C724" style="background-color:#F4C724" onclick="copyColor('#F4C724')" onmouseover="showText('#F4C724')" onmouseout="removeText('#F4C724')">
+            #F4C724            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="8395A7" style="background-color:#8395A7" onclick="copyColor('#8395A7')" onmouseover="showText('#8395A7')" onmouseout="removeText('#8395A7')">
+            #8395A7            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="535C68" style="background-color:#535C68" onclick="copyColor('#535C68')" onmouseover="showText('#535C68')" onmouseout="removeText('#535C68')">
+            #535C68            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="99AAAB" style="background-color:#99AAAB" onclick="copyColor('#99AAAB')" onmouseover="showText('#99AAAB')" onmouseout="removeText('#99AAAB')">
+            #99AAAB            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="607D8B" style="background-color:#607D8B" onclick="copyColor('#607D8B')" onmouseover="showText('#607D8B')" onmouseout="removeText('#607D8B')">
+            #607D8B            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="758AA2" style="background-color:#758AA2" onclick="copyColor('#758AA2')" onmouseover="showText('#758AA2')" onmouseout="removeText('#758AA2')">
+            #758AA2            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="A4B0BD" style="background-color:#A4B0BD" onclick="copyColor('#A4B0BD')" onmouseover="showText('#A4B0BD')" onmouseout="removeText('#A4B0BD')">
+            #A4B0BD            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="777E8B" style="background-color:#777E8B" onclick="copyColor('#777E8B')" onmouseover="showText('#777E8B')" onmouseout="removeText('#777E8B')">
+            #777E8B            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="47535E" style="background-color:#47535E" onclick="copyColor('#47535E')" onmouseover="showText('#47535E')" onmouseout="removeText('#47535E')">
+            #47535E            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="586776" style="background-color:#586776" onclick="copyColor('#586776')" onmouseover="showText('#586776')" onmouseout="removeText('#586776')">
+            #586776            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="DAE0E2" style="background-color:#DAE0E2" onclick="copyColor('#DAE0E2')" onmouseover="showText('#DAE0E2')" onmouseout="removeText('#DAE0E2')">
+            #DAE0E2            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="7B8788" style="background-color:#7B8788" onclick="copyColor('#7B8788')" onmouseover="showText('#7B8788')" onmouseout="removeText('#7B8788')">
+            #7B8788            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="9E9E9E" style="background-color:#9E9E9E" onclick="copyColor('#9E9E9E')" onmouseover="showText('#9E9E9E')" onmouseout="removeText('#9E9E9E')">
+            #9E9E9E            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="E91E63" style="background-color:#E91E63" onclick="copyColor('#E91E63')" onmouseover="showText('#E91E63')" onmouseout="removeText('#E91E63')">
+            #E91E63            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="E74292" style="background-color:#E74292" onclick="copyColor('#E74292')" onmouseover="showText('#E74292')" onmouseout="removeText('#E74292')">
+            #E74292            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="FDA7DF" style="background-color:#FDA7DF" onclick="copyColor('#FDA7DF')" onmouseover="showText('#FDA7DF')" onmouseout="removeText('#FDA7DF')">
+            #FDA7DF            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="BB2CD9" style="background-color:#BB2CD9" onclick="copyColor('#BB2CD9')" onmouseover="showText('#BB2CD9')" onmouseout="removeText('#BB2CD9')">
+            #BB2CD9            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="8B78E6" style="background-color:#8B78E6" onclick="copyColor('#8B78E6')" onmouseover="showText('#8B78E6')" onmouseout="removeText('#8B78E6')">
+            #8B78E6            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="9C27B0" style="background-color:#9C27B0" onclick="copyColor('#9C27B0')" onmouseover="showText('#9C27B0')" onmouseout="removeText('#9C27B0')">
+            #9C27B0            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="673AB7" style="background-color:#673AB7" onclick="copyColor('#673AB7')" onmouseover="showText('#673AB7')" onmouseout="removeText('#673AB7')">
+            #673AB7            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="D980FA" style="background-color:#D980FA" onclick="copyColor('#D980FA')" onmouseover="showText('#D980FA')" onmouseout="removeText('#D980FA')">
+            #D980FA            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="3F51B5" style="background-color:#3F51B5" onclick="copyColor('#3F51B5')" onmouseover="showText('#3F51B5')" onmouseout="removeText('#3F51B5')">
+            #3F51B5            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="FF6347" style="background-color:#FF6347" onclick="copyColor('#FF6347')" onmouseover="showText('#FF6347')" onmouseout="removeText('#FF6347')">
+            #FF6347            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="FF8C00" style="background-color:#FF8C00" onclick="copyColor('#FF8C00')" onmouseover="showText('#FF8C00')" onmouseout="removeText('#FF8C00')">
+            #FF8C00            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="EE5A24" style="background-color:#EE5A24" onclick="copyColor('#EE5A24')" onmouseover="showText('#EE5A24')" onmouseout="removeText('#EE5A24')">
+            #EE5A24            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="FF5722" style="background-color:#FF5722" onclick="copyColor('#FF5722')" onmouseover="showText('#FF5722')" onmouseout="removeText('#FF5722')">
+            #FF5722            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="#FF4500" style="background-color:	#FF4500" onclick="copyColor('	#FF4500')" onmouseover="showText('	#FF4500')" onmouseout="removeText('	#FF4500')">
+            	#FF4500            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="795548" style="background-color:#795548" onclick="copyColor('#795548')" onmouseover="showText('#795548')" onmouseout="removeText('#795548')">
+            #795548            </div>
+            <!--col1 end-->
+                            
+            <div class="box col-xm-2" id="4C4B4B" style="background-color:#4C4B4B" onclick="copyColor('#4C4B4B')" onmouseover="showText('#4C4B4B')" onmouseout="removeText('#4C4B4B')">
+            #4C4B4B            </div>
+            <!--col1 end-->
+                    </div>
+       
+       <!-- <div style="background:#0ABDE3;color:#fff;margin-left:-10px;padding:10px;width:100%;margin-bottom:4px;box-shadow:0px 1px 3px rgba(0,0,0,0.42);">Red</div> -->
+    </div>
+<br><br><br>
+<div style="background:#ecf0f1" id="footer" >
+     &copy; 2019, Designed and Developed By skaran<sup>921</sup>
+</div>
+
+    <!-- js -->
+    <script>
+        function copyColor(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val(element).select();
+            document.execCommand("copy");
+            $temp.remove();
+            $(element).text("Copied!");
+        } //copyColor
+
+        function showText(element) {
+            $(element).text("Click To Copy ");
+        }
+
+        function removeText(element) {
+            $(element).text(element);
+        }
+    </script>
+    <!-- js end -->
+</body>
+
+</html>
